@@ -1,0 +1,34 @@
+*{
+    margin: 0 auto;
+    text-align: center;
+}
+body{
+    width: 80%;
+    margin-top: 20px;
+}
+label, .error, .result{
+    margin: 20px auto;
+}
+label{
+    display: list-item;
+    list-style: none;
+    width: 40%;
+    text-align: left;
+}
+input, textarea{
+    width: 40%;
+    float: right;
+}
+input[type="submit"]{
+    float: none;
+}
+.error{
+    color: red;
+}
+.result{
+    color: green;
+    font-size: 20px;
+}
+.clr{
+    clear: both;
+}
